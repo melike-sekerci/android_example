@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".anaSayfa">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+
+                    android:id="@+id/anasayfa"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/anasayfa"></ImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Anasayfa"></TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/bul"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/bul"></ImageView>
+
+                    <TextView
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Ara"></TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/kesif"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/dunya"></ImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Keşif"></TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:id="@+id/dahaFazla">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/ucnokta"></ImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Daha Fazla"></TextView>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Keşfediceğin Ülkeler ve Şehirler"
+                android:textColor="#970505"
+                android:textStyle="bold|italic"></TextView>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="130dp"
+                        android:layout_height="150dp"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/endonezya"></ImageView>
+
+                    <TextView
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Endonezya"></TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="130dp"
+                        android:layout_height="150dp"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/istanbul"></ImageView>
+
+                    <TextView
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="İstanbul"></TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="130dp"
+                        android:layout_height="150dp"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/hirvatistan"></ImageView>
+
+                    <TextView
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Hırvatistan"></TextView>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yöresel Yemekler"
+                android:textColor="#970505"
+                android:textStyle="bold|italic"></TextView>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="130dp"
+                        android:layout_height="150dp"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/baklavam"></ImageView>
+
+                    <TextView
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Türkiye,Baklava"></TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="130dp"
+                        android:layout_height="150dp"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/ispanyapaella"></ImageView>
+
+                    <TextView
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="İspanya,Paella"></TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="130dp"
+                        android:layout_height="150dp"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/fransaflamiche"></ImageView>
+
+                    <TextView
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Fransa,Flamiche"></TextView>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Önerilen Kitaplar"
+                android:textColor="#970505 "
+                android:textStyle="bold|italic"></TextView>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="130dp"
+                        android:layout_height="150dp"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/canakkale"></ImageView>
+
+                    <TextView
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Kalk Gidelim Çanakkale"></TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="130dp"
+                        android:layout_height="150dp"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/sibirya"></ImageView>
+
+                    <TextView
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Sibirya-Batı Türkistan"
+
+                        ></TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="130dp"
+                        android:layout_height="150dp"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/turkiye"></ImageView>
+
+                    <TextView
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Güzel Ülkem Türkiye"></TextView>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gezginler Gözünden"
+                android:textColor="#970505"
+                android:textStyle="bold|italic"></TextView>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="130dp"
+                        android:layout_height="150dp"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/barselona"></ImageView>
+
+                    <TextView
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Barcelona'm"></TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="130dp"
+                        android:layout_height="150dp"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/izmir"></ImageView>
+
+                    <TextView
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Bir İzmirli'nin Gözünden"></TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="130dp"
+                        android:layout_height="150dp"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/galata"></ImageView>
+
+                    <TextView
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Galata Kulesi'nin Gölgesinde"></TextView>
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

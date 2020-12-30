@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hangi resmi seçmek istiyorsunuz?"
+        android:textSize="20dp"
+        android:textStyle="bold|normal"
+        ></TextView>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="180dp"
+        android:background="@drawable/ic_launcher_foreground"
+        android:id="@+id/img"
+        android:layout_gravity="center"></ImageView>
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroup">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Resim1"
+            android:id="@+id/btnbir"></RadioButton>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Resim2"
+            android:id="@+id/btniki"></RadioButton>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Resim3"
+            android:id="@+id/btnuc"></RadioButton>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Resim4"
+            android:id="@+id/btndort"></RadioButton>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Resim5"
+            android:id="@+id/btnbes"></RadioButton>
+    </RadioGroup>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="değiş"
+        android:textStyle="normal|bold"
+        android:id="@+id/button"></Button>
+
+
+</LinearLayout>

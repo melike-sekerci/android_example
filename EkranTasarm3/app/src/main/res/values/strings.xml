@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">EkranTasarımı3</string>
+    <string name="adsoyad">Adınız Soyadınız</string>
+    <string name="gönder">GÖNDER</string>
+</resources>

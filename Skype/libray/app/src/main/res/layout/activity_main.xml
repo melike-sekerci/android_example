@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kutuphane"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:background="#eee9e9"
+        android:text="The library is a gateway to time."
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="italic"></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="100dp"
+        android:padding="20dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="E-mail"
+            android:layout_marginTop="20dp"></EditText>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:layout_marginTop="20dp"></EditText>
+
+
+        <Button
+            android:id="@+id/btnSingIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Log ın"
+            android:background="#3498DB"
+            android:layout_marginTop="20dp"></Button>
+
+        <Button
+            android:id="@+id/btnSingUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SING UP"
+            android:layout_marginTop="20dp"
+            android:background="#1ABC9C "></Button>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

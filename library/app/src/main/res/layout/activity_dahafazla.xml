@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".dahafazla">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp">
+
+
+        <LinearLayout
+
+            android:id="@+id/anasayfa"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/anasayfa"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Anasayfa"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/bul"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/bul"></ImageView>
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Ara"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/kesif"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/dunya"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Keşif"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:id="@+id/dahaFazla">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/ucnokta"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Daha Fazla"></TextView>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/ayarlar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Ayarlar"
+        android:textColor="#970505"
+        android:textSize="20dp"
+        android:textStyle="italic"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_margin="10dp"
+        android:text="Bildirimler"
+        android:textColor="#970505"
+        android:textSize="20dp"
+        android:textStyle="italic"></TextView>
+
+    <TextView
+        android:id="@+id/yardim"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_margin="10dp"
+        android:text="Yardım"
+        android:textColor="#970505"
+        android:textSize="20dp"
+        android:textStyle="italic"></TextView>
+
+    <TextView
+        android:id="@+id/hakkimizda"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_margin="10dp"
+        android:text="Hakkımızda"
+        android:textColor="#970505"
+        android:textSize="20dp"
+        android:textStyle="italic"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_margin="10dp"
+        android:text="Google Play'de Bizi Değerlendir!"
+        android:textColor="#970505"
+        android:textSize="20dp"
+        android:textStyle="italic"></TextView>
+
+</LinearLayout>

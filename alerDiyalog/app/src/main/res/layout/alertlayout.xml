@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#324589"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/kullanıcı"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kullanıcı isimini giriniz:"></EditText>
+
+    <EditText
+        android:id="@+id/mailAdres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mail adresini giriniz:"></EditText>
+
+    <EditText
+        android:id="@+id/parola"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Parolanızı giriniz:"
+        android:inputType="textPassword"></EditText>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <Button
+        android:layout_weight="1"
+        android:id="@+id/buton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Üye girişi"></Button>
+    <Button
+        android:id="@+id/buton2"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="İptal et"></Button>
+</LinearLayout>
+
+</LinearLayout>
